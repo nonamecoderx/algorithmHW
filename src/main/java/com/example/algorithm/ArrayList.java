@@ -3,7 +3,6 @@ package com.example.algorithm;
 import com.example.algorithm.exceptions.IncorrectIndexException;
 import com.example.algorithm.exceptions.IncorrectItemException;
 import com.example.algorithm.exceptions.IncorrectSizeException;
-import org.apache.tomcat.util.http.fileupload.impl.SizeException;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -12,7 +11,7 @@ public class ArrayList implements StringList {
     private String[] array;
     private int size;
 
-    public ArrayList(int i) {
+    public ArrayList() {
     }
 
 

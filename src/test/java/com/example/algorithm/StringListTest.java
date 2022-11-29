@@ -14,7 +14,7 @@ public class StringListTest {
 
     @BeforeEach
     public void setUp() {
-        stringList1 = new ArrayList(12);
+        stringList1 = new ArrayList();
         array = new String[]{"aaa", "bbb", "ccc", "ddd", "eee", "fff", "ggg", null, null};
         stringList1.setArray(array);
         stringList1.setSize(size);
